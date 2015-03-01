@@ -1,8 +1,8 @@
-from setuptools import setup, find_packages
+from setuptools import setup
 
 setup(name="untemplate",
       version="0.0.1",
-      packages=find_packages(),
+      packages=['untemplate'],
       author="Ian Denhardt",
       author_email="ian@zenhack.net",
       description="A pure-python alternative to templating libraries.",

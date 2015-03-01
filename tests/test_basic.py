@@ -1,5 +1,3 @@
-import doctest
-
 from untemplate.node import Element, Markup
 from untemplate_testing import same_doc
 

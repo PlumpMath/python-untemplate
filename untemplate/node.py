@@ -12,7 +12,7 @@ class Element(object):
         The element will have the tag ``tag``, and no attributes or child
         nodes.
         """
-        self.tag = tag
+        self.tag = tag.lower()
         self.attrs = {}
         self.contents = ()
 

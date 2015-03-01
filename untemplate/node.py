@@ -90,4 +90,4 @@ class Markup(object):
 
     def write_to(self, fp):
         """Write the element to the file-like object fp."""
-        fp.write(text)
+        fp.write(self.text)

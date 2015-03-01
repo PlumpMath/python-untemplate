@@ -1,3 +1,5 @@
+import doctest
+
 from untemplate.node import Element
 from untemplate_testing import same_doc
 

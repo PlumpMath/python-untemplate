@@ -18,27 +18,27 @@ from untemplate.elements import (
 )
 
 def base(title, *content):
-    return Html()(
-        Head()(
-            Title()(title),
+    return Html(
+        Head(
+            Title(title),
         ),
-        Body()(
-            H1()(title),
+        Body(
+            H1(title),
             Div(id="content")(*content),
         ),
     )
 
 github = "//github.com/zenhack/python-untemplate"
 doc = base("Hello, Untemplate")(
-    P()(
-        Code()("python-untemplate"), ''' is an alternative to xml/html 
+    P(
+        Code("python-untemplate"), ''' is an alternative to xml/html 
         templating libraries.  It provides facilities for quickly and
         easily constructing documents in python itself, unlocking access 
         to the full power of the python programming language in your
         untemplates.
         '''
     ),
-    P()(
+    P(
         "Fork us on ", A(href=github)("Github"), "!",
     ),
 )

@@ -13,9 +13,7 @@ Code:
 
 ```python
 
-from untemplate.elements import (
-    Html, Head, Title, Body, H1, P, A, Code, Div
-)
+from untemplate.html import *
 
 def base(title, *content):
     return Html(

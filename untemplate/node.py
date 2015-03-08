@@ -74,7 +74,7 @@ class Element(object):
         return buf.getvalue()
 
     def __repr__(self):
-        return '<Element(%r,%r,%r)' % (self.tag, self.attrs, self.contents)
+        return '<Element(%r,%r,%r)>' % (self.tag, self.attrs, self.contents)
 
 
 class Markup(object):

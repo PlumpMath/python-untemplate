@@ -1,0 +1,3 @@
+include README.md
+include test-requirements.txt
+recursive-include untemplate_testing *.py

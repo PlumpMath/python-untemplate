@@ -1,3 +1,4 @@
 include README.md
+include COPYING
 include test-requirements.txt
 recursive-include untemplate_testing *.py

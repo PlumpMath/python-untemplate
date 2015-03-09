@@ -1,11 +1,10 @@
-(Note: `python-untemplate` has barely begun, and doesn't really work yet. This 
-document is more of a roadmap that a description of the current state of 
-things.)
+`python-untemplate` is an alternative to xml/html templating libraries.  
+It provides facilities for quickly and easily constructing documents in 
+python itself, unlocking access to the full power of the python 
+programming language in your untemplates.
 
-`python-untemplate` is an alternative to xml/html templating libraries.  It 
-provides facilities for quickly and easily constructing documents in python 
-itself, unlocking access to the full power of the python programming language 
-in your untemplates.
+`python-untemplate` works, but is still very new, and probably has a few 
+rough edges.
 
 # Appetizer
 
